@@ -21,5 +21,5 @@ Este es un bot de Discord desarrollado en **Python** que integra la API de **Scr
 2. Crea un archivo `.env` en la raíz del proyecto.
 3. Agrega tu token de Discord: `DISCORD_TOKEN=tu_token_aqui`
 4. Instala las dependencias asíncronas: 
-   ```bash
-   pip install discord.py aiohttp python-dotenv
+    ```bash
+    pip install discord.py aiohttp python-dotenv

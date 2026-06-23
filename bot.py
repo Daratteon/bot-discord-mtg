@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from mtg_logic import MTGService 
 
 # 1. Configuración de Entorno y Seguridad
-load_dotenv("mtglogico.env")
+load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 if not TOKEN:
