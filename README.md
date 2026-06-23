@@ -11,7 +11,8 @@ Este es un bot de Discord desarrollado en **Python** que integra la API de **Scr
 ## 🛠️ Tecnologías utilizadas
 - **Lenguaje:** Python 3.x
 - **Librería principal:** `discord.py`
-- **APIs externas:** Scryfall API y Commander Spellbook API
+- **Peticiones HTTP:** `aiohttp` (Arquitectura asíncrona para evitar bloqueos del bot).
+- **APIs externas:** Scryfall API y Commander Spellbook API.
 - **Gestión de entorno:** `python-dotenv` para seguridad de tokens.
 
 ## 📦 Instalación y Configuración
@@ -19,8 +20,6 @@ Este es un bot de Discord desarrollado en **Python** que integra la API de **Scr
 1. Clona el repositorio.
 2. Crea un archivo `.env` en la raíz del proyecto.
 3. Agrega tu token de Discord: `DISCORD_TOKEN=tu_token_aqui`
-4. Instala las dependencias: `pip install discord.py requests python-dotenv`
-5. Ejecuta el bot: `python bot.py`
-
-## 📄 Licencia
-Este proyecto está bajo la Licencia MIT.
+4. Instala las dependencias asíncronas: 
+   ```bash
+   pip install discord.py aiohttp python-dotenv
