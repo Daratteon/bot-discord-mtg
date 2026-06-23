@@ -23,3 +23,4 @@ Este es un bot de Discord desarrollado en **Python** que integra la API de **Scr
 4. Instala las dependencias asíncronas: 
     ```bash
     pip install discord.py aiohttp python-dotenv
+    ```
